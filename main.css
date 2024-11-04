@@ -1,0 +1,66 @@
+body {
+    background-color: #D8BFBF; /* Светло-коричневый фон */
+    color: #333333; /* Темно-серый текст */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #A0522D; /* Более темный коричневый для заголовка */
+    color: white; /* Белый текст */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700; /* Золотистый цвет для ссылок */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 20%; /* Настройте по необходимости */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #A0522D; /* Цвет фона для нижнего колонтитула */
+    color: white; /* Белый текст */
+}
